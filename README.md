@@ -20,7 +20,3 @@ This project provides a script (`update_cf_rule_ip.sh`) that automatically updat
 2. **Ensure required dependencies are installed:**
    - `curl` (for fetching public IP and API calls)
    - `jq` (for parsing API responses)
-   
-   On macOS:
-   ```bash
-   brew install jq
