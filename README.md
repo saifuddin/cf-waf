@@ -4,11 +4,6 @@
 
 This project provides a script (`update_cf_rule_ip.sh`) that automatically updates a Cloudflare WAF (Web Application Firewall) **custom rule** to allow traffic from your **current public IP address**.
 
-**Why this is needed:**
-- When your public IP changes (e.g., due to dynamic ISP assignments), existing allowlists may block your access.
-- This script fetches your current public IP and updates a specific WAF custom rule via the Cloudflare API.
-- Logs are maintained in `update_cf_rule_ip.log` with timestamps for tracking updates.
-
 **What's been done:**
 - Bash script `update_cf_rule_ip.sh` for automated WAF rule updates.
 - Logging with timestamps (local timezone).
